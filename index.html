@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Signup Form</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>Login</h1>
+
+        <form class="auth-form">
+
+            <!-- Username -->
+            <div class="form-field">
+                <label for="username">Username</label>
+                <div class="input-wrapper">
+                    <input 
+                        type="text" 
+                        id="username" 
+                        placeholder="Enter your username" 
+                        required
+                    >
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+
+            <!-- Password -->
+            <div class="form-field">
+                <label for="password">Password</label>
+                <div class="input-wrapper">
+                    <input 
+                        type="password" 
+                        id="password" 
+                        placeholder="Enter your password" 
+                        required
+                    >
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+            </div>
+
+            <!-- Options -->
+            <div class="form-options">
+                <label class="remember">
+                    <input type="checkbox" id="remember-me">
+                    Remember me
+                </label>
+
+                <a href="#" class="forgot-link">Forgot password?</a>
+            </div>
+
+            <!-- Button -->
+            <button type="submit" class="login-btn">Login</button>
+
+            <!-- Signup -->
+            <p class="signup-link">
+                Don't have an account?
+                <a href="#">Sign up</a>
+            </p>
+
+        </form>
+    </div>
+</body>
+</html>
